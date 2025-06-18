@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents - A scalable and cost-efficient pipeline for automatically synthesizing high-quality tasks and trajectory datasets for generalist computer-use agents.">
+  <meta property="og:title" content="AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents"/>
+  <meta property="og:description" content="A scalable and cost-efficient pipeline for automatically synthesizing high-quality tasks and trajectory datasets for generalist computer-use agents using information asymmetry."/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/images/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents">
+  <meta name="twitter:description" content="A scalable and cost-efficient pipeline for automatically synthesizing high-quality tasks and trajectory datasets for generalist computer-use agents.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="AgentSynth, computer-use agents, LLM agents, synthetic data generation, task generation, trajectory datasets, information asymmetry">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://jingxuxie.com/" target="_blank">Jingxu Xie</a>,</span>
+                <span class="author-block">
+                  <a href="https://www.linkedin.com/in/dylanx26/" target="_blank">Dylan Xu</a>,</span>
+                  <span class="author-block">
+                    <a href="https://xuandongzhao.github.io/" target="_blank">Xuandong Zhao</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://people.eecs.berkeley.edu/~dawnsong/" target="_blank">Dawn Song</a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">University of California, Berkeley</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2506.14205" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/sunblaze-ucb/AgentSynth" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- Huggingface dataset link -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/sunblaze-ucb/AgentSynth" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-database"></i>
+                  </span>
+                  <span>Dataset</span>
+                </a>
+              </span>
+
+                <!-- Twitter thread link -->
+                <span class="link-block">
+                  <a href="https://x.com/xuandongzhao/status/1927270931874910259" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                  <span>Thread</span>
+                </a>
+              </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2506.14205" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+<span>arXiv</span>
+                </a>
+              </span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/pipeline.png" alt="AgentSynth Pipeline Overview" style="width: 100%; height: auto;">
+      <h2 class="subtitle has-text-centered">
+        AgentSynth leverages information asymmetry to construct complex tasks from simple, solvable subtasks, enabling scalable synthesis of diverse computer-use agent datasets.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We introduce AgentSynth, a scalable and cost-efficient pipeline for automatically synthesizing high-quality tasks and trajectory datasets for generalist computer-use agents. Leveraging information asymmetry, AgentSynth constructs subtasks that are simple during generation but significantly more challenging when composed into long-horizon tasks, enabling the creation of over 6,000 diverse and realistic tasks. Our pipeline begins with an LLM-based task proposer guided by a persona, followed by an execution agent that completes the task and logs the trajectory. This process is repeated iteratively to form a sequence of subtasks, which are then summarized by a separate agent into a composite task of controllable difficulty. A key strength of AgentSynth is its ability to precisely modulate task complexity by varying the number of subtasks. Empirical evaluations show that state-of-the-art LLM agents suffer a steep performance drop, from 18% success at difficulty level 1 to just 4% at level 6, highlighting the benchmark's difficulty and discriminative power. Moreover, our pipeline achieves a low average cost of $0.60 per trajectory, orders of magnitude cheaper than human annotations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+
+<!-- Task Generation Process -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Task Generation Process</h2>
+      <div class="content has-text-justified">
+        <p>
+          Given a persona, the task proposer generates an initial task, which is followed by a sequence of subtasks executed by the agent. Each step is verified; if execution fails, a revised subtask description is generated. After n successful steps, a summarization agent composes final high-level tasks. Tasks at different difficulty levels are formed by summarizing the first 1 to n subtasks, enabling controllable task complexity.
+        </p>
+      </div>
+      <div class="has-text-centered">
+        <img src="static/images/example.png" alt="Task Generation Process Example" style="width: 100%; height: auto; max-width: 800px;">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Task Generation Process -->
+
+
+<!-- Case Study -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Case Study</h2>
+      <div class="content has-text-justified">
+        <p>
+          To illustrate the quality and realism of tasks generated by the AgentSynth pipeline, we present a representative example. Additional examples can be found in Appendix B.
+        </p>
+        
+        <p>First, a persona is sampled from the persona hub:</p>
+        <div class="box">
+          <strong>Persona:</strong> a senior student at Kentucky Wesleyan College.
+        </div>
+        
+        <p>Then, the task proposer generated an initial task tailored to this persona:</p>
+        <div class="box">
+          <strong>Initial task:</strong> Search for the 'Kentucky Wesleyan College 2024 academic calendar' in Google Chrome.
+        </div>
+        
+        <p>Next, this initial task was successfully executed, and five follow-up tasks were iteratively generated and completed:</p>
+        <div class="box">
+          <ul>
+            <li><strong>Follow-up Task 1</strong> Find the Kentucky Wesleyan College 2024 commencement (graduation) date on the academic calendar currently open in Chrome.</li>
+            <li><strong>Follow-up Task 2</strong> Open the Calendar application after searching for graduation-related dates on an academic calendar website.</li>
+            <li><strong>Follow-up Task 3</strong> Scroll backwards month-by-month in the calendar application from March 2025 to June 2024 using the month view.</li>
+            <li><strong>Follow-up Task 4</strong> Create a new calendar event on the day of Kentucky Wesleyan College's 2024 commencement titled 'Graduation Day' and add a note: 'Remember to bring gown and arrive 1 hour early'.</li>
+            <li><strong>Follow-up Task 5</strong> Add a notification/reminder to the 'Graduation Day' event on May 3, 2024 in the Calendar app to alert you 1 day before.</li>
+          </ul>
+        </div>
+        
+        <p>
+          Each of these subtasks is simple and logically follows from the previous one. The task summarizer composes them into coherent, high-level tasks. We define <em>task difficulty level n</em> as the summary of the first n subtasks, resulting in increasingly complex and realistic scenarios. These summarized tasks are then used for evaluation and benchmarking. The list below shows the final task descriptions at six difficulty levels, with <em>italicized text</em> indicating the incremental complexity introduced at each level:
+        </p>
+        
+        <div class="box">
+          <ul>
+            <li><strong>Task Difficulty Level 1</strong> (same as the initial task): Search for the 'Kentucky Wesleyan College 2024 academic calendar' in Google Chrome.</li>
+            <li><strong>Task Difficulty Level 2:</strong> Find and report the date and time of the Kentucky Wesleyan College 2024 commencement ceremony by searching for the 2024 academic calendar online, locating the official calendar, and <em>identifying the commencement event listed there</em>.</li>
+            <li><strong>Task Difficulty Level 3:</strong> Search for the 'Kentucky Wesleyan College 2024 academic calendar' in Google Chrome, find the 2024 commencement date, and then <em>open the Calendar application to view or record the commencement date</em>.</li>
+            <li><strong>Task Difficulty Level 4:</strong> Find the Kentucky Wesleyan College 2024 commencement date using Google Chrome, then open the Calendar application and <em>scroll back in month view from March 2025 to June 2024</em> in preparation for viewing or adding the graduation date to the calendar.</li>
+            <li><strong>Task Difficulty Level 5:</strong> Find the Kentucky Wesleyan College 2024 commencement date by searching online using the academic calendar, and <em>create a new event titled 'Graduation Day' in your digital Calendar application, adding a note that says 'Remember to bring gown and arrive 1 hour early'</em>.</li>
+            <li><strong>Task Difficulty Level 6:</strong> Find the Kentucky Wesleyan College 2024 commencement date by searching the 2024 academic calendar online, then create a calendar event titled 'Graduation Day' in the Calendar application with a note saying 'Remember to bring gown and arrive 1 hour early,' and <em>set a reminder to alert you one day before the event</em>.</li>
+          </ul>
+        </div>
+        
+        <p>
+          As the task level increases, both task length and complexity grow accordingly. Each additional subtask introduces new actions, tools, or planning steps. This shows the average token count across task levels, confirming that longer task compositions correspond to more elaborate task descriptions and execution requirements.
+        </p>
+        
+        <p>
+          We note that our notion of task difficulty corresponds primarily to task horizon and the compositional complexity of multiple subtasks. However, we acknowledge that a task considered hard under this criterion may reflect both intrinsic complexity and lack of familiarity to agents trained primarily on shorter or simpler tasks. Intrinsic complexity, such as the cognitive load required to manage multi-application workflows, maintain intermediate state, and recover from errors, often increases with task horizon, but shorter tasks may also be intrinsically challenging if they involve nuanced visual perception, context-dependent decisions, or unfamiliar interactions. Future analyses could systematically separate intrinsic task complexity from novelty or lack of exposure.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Case Study -->
+
+
+<!-- Task Generation Process -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Data composition for AgentSynth</h2>
+      <div class="content has-text-justified">
+        <p>
+          AgentSynth's diverse topics and software involved demonstrate the potential to train generatlist computer-use agents        </p>
+      </div>
+      <div class="has-text-centered">
+        <img src="static/images/distribution.png" style="width: 100%; height: auto; max-width: 800px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Experiment results</h2>
+      <div class="content has-text-justified">
+        <p>
+          Model performance across task difficulty levels (top) and across domain categories at difficulty level 1 (bottom) on the AgentSynth benchmark.        </p>
+      </div>
+      <div class="has-text-centered">
+        <img src="static/images/results.png" style="width: 100%; height: auto; max-width: 800px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{xie2025agentsynth,
+  title={AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents},
+  author={Xie, Jingxu and Xu, Dylan and Zhao, Xuandong and Song, Dawn},
+  journal={arXiv preprint arXiv:2506.14205},
+  year={2025}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
